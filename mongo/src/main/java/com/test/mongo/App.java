@@ -2,13 +2,9 @@ package com.test.mongo;
 
 import java.io.File;
 
-import org.apache.commons.io.FileUtils;
-
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.mongodb.client.MongoClient;
 import com.mongodb.client.MongoClients;
-import com.tomtom.places.model.ClusterState;
 
 public class App {
 
@@ -17,35 +13,18 @@ public class App {
     private static final File jsonDeltaFile = new File(DELTA_FILE_PATH_PREFIX + "86df464a-0873-4562-b00b-6ee1efcef832.json");
 
     // 86df464a-0873-4562-b00b-6ee1efcef832.json
-    private static ClusterState getClusterState(String jsonFileName) {
-        ClusterState state = null;
-        try {
-            File jsonDeltaFile = new File(DELTA_FILE_PATH_PREFIX + jsonFileName);
-            if (jsonDeltaFile.exists()) {
-                String stateJsonString = FileUtils.readFileToString(jsonDeltaFile);
-                return gson.fromJson(stateJsonString, ClusterState.class);
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        return state;
-    }
-
-    private static String getJsonAsString() {
-        try {
-            if (jsonDeltaFile.exists()) {
-                return FileUtils.readFileToString(jsonDeltaFile);
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        return null;
-    }
+    /*
+     * private static ClusterState getClusterState(String jsonFileName) { ClusterState state = null; try { File jsonDeltaFile = new
+     * File(DELTA_FILE_PATH_PREFIX + jsonFileName); if (jsonDeltaFile.exists()) { String stateJsonString =
+     * FileUtils.readFileToString(jsonDeltaFile); return gson.fromJson(stateJsonString, ClusterState.class); } } catch (Exception e) {
+     * e.printStackTrace(); } return state; } private static String getJsonAsString() { try { if (jsonDeltaFile.exists()) { return
+     * FileUtils.readFileToString(jsonDeltaFile); } } catch (Exception e) { e.printStackTrace(); } return null; }
+     */
 
     public static void main(String[] args) {
         try {
 
-            MongoClient mongoClient = MongoClients.create("mongodb://localhost:27017");
+            MongoClients.create("mongodb://localhost:27017");
 
             /*
              * MongoClient mongo = new MongoClient("localhost", 27017); MongoDatabase db = mongo.getDatabase("test");
@@ -63,7 +42,6 @@ public class App {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
     }
 
 }
