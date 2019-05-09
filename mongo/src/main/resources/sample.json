@@ -1,0 +1,274 @@
+{
+                    "location": {
+                        "lat": 14.995662732,
+                        "lon": 102.123183589
+                    },
+                    "addresses": [],
+                    "normalizedPlace": {
+                        "deliveryPlaceId": {
+                            "mostSigBits": -2983046020484546091,
+                            "leastSigBits": -9190984463560239854
+                        },
+                        "externalIds": [
+                            {
+                                "type": "NotStable",
+                                "value": "SAS_26420"
+                            }
+                        ],
+                        "sourceId": [],
+                        "supplier": {
+                            "id": "229",
+                            "name": "SAS"
+                        },
+                        "names": [
+                            {
+                                "text": {
+                                    "value": "Kuaitiao Sukhothai Khorat",
+                                    "language": "th",
+                                    "script": "Latn"
+                                },
+                                "matchNormalizedName": "kuaitiao sukhothai khorat",
+                                "strippedNormalizedName": "kuaitiao sukhothai khorat",
+                                "type": "Official"
+                            },
+                            {
+                                "text": {
+                                    "value": "ก๋วยเตี๋ยวสุโขทัย โคราช",
+                                    "language": "th",
+                                    "script": "Thai"
+                                },
+                                "matchNormalizedName": "ก๋วยเตี๋ยวสุโขทัย โคราช",
+                                "strippedNormalizedName": "สุโขทัย โคราช",
+                                "type": "Official"
+                            }
+                        ],
+                        "loci": [
+                            {
+                                "locusToEpKey": {
+                                    "mostSigBits": -6015761341718705442,
+                                    "leastSigBits": -7606604118100931633
+                                },
+                                "locationContentType": "PointDelivered",
+                                "mapReference": {
+                                    "edgeId": "00005448-3700-0400-0000-000001b009fa",
+                                    "edgeSide": "L",
+                                    "partition": "THA0000",
+                                    "dataset": "THA"
+                                },
+                                "accuracy": {
+                                    "geocodingAccuracy": "ClosestEdge"
+                                },
+                                "forwardGeocodingStatus": "NotEvaluated",
+                                "point": {
+                                    "latitude": 14.995662732,
+                                    "longitude": 102.123183589
+                                },
+                                "address": {
+                                    "country": "TH",
+                                    "city": {
+                                        "value": "Nai Mueang",
+                                        "language": "th",
+                                        "script": "Latn"
+                                    },
+                                    "street": {},
+                                    "house": {},
+                                    "postalCode": {
+                                        "main": "30000",
+                                        "sub": ""
+                                    }
+                                }
+                            },
+                            {
+                                "locusToEpKey": {
+                                    "mostSigBits": -6015761341718705442,
+                                    "leastSigBits": -7606604118100931633
+                                },
+                                "locationContentType": "PointDelivered",
+                                "mapReference": {
+                                    "edgeId": "00005448-3700-0400-0000-000001b009fa",
+                                    "edgeSide": "L",
+                                    "partition": "THA0000",
+                                    "dataset": "THA"
+                                },
+                                "accuracy": {
+                                    "geocodingAccuracy": "ClosestEdge"
+                                },
+                                "forwardGeocodingStatus": "NotEvaluated",
+                                "point": {
+                                    "latitude": 14.995662732,
+                                    "longitude": 102.123183589
+                                },
+                                "address": {
+                                    "country": "TH",
+                                    "city": {
+                                        "value": "Nai Mueang",
+                                        "language": "th",
+                                        "script": "Latn"
+                                    },
+                                    "street": {
+                                        "language": "th",
+                                        "script": "Latn"
+                                    },
+                                    "house": {},
+                                    "postalCode": {
+                                        "main": "30000",
+                                        "sub": ""
+                                    }
+                                }
+                            },
+                            {
+                                "locusToEpKey": {
+                                    "mostSigBits": -6015761341718705442,
+                                    "leastSigBits": -7606604118100931633
+                                },
+                                "locationContentType": "PointDelivered",
+                                "mapReference": {
+                                    "edgeId": "00005448-3700-0400-0000-000001b009fa",
+                                    "edgeSide": "L",
+                                    "partition": "THA0000",
+                                    "dataset": "THA"
+                                },
+                                "accuracy": {
+                                    "geocodingAccuracy": "ClosestEdge"
+                                },
+                                "forwardGeocodingStatus": "NotEvaluated",
+                                "point": {
+                                    "latitude": 14.995662732,
+                                    "longitude": 102.123183589
+                                },
+                                "address": {
+                                    "country": "TH",
+                                    "city": {
+                                        "value": "ในเมือง",
+                                        "language": "th",
+                                        "script": "Thai"
+                                    },
+                                    "street": {
+                                        "language": "th",
+                                        "script": "Thai"
+                                    },
+                                    "house": {},
+                                    "postalCode": {
+                                        "main": "30000",
+                                        "sub": ""
+                                    }
+                                }
+                            },
+                            {
+                                "locusToEpKey": {
+                                    "mostSigBits": 2630156132161964802,
+                                    "leastSigBits": -6299152755060519298
+                                },
+                                "locationContentType": "AddressDelivered",
+                                "accuracy": {
+                                    "geocodingAccuracy": "NotGeocoded"
+                                },
+                                "forwardGeocodingStatus": "NotEvaluated",
+                                "point": {
+                                    "latitude": 14.995662732,
+                                    "longitude": 102.123183589
+                                },
+                                "address": {
+                                    "country": "TH",
+                                    "city": {
+                                        "value": "Amphoe Mueang Nakhon Ratchasima",
+                                        "language": "th",
+                                        "script": "Latn"
+                                    },
+                                    "postalCode": {
+                                        "main": "30000"
+                                    }
+                                }
+                            }
+                        ],
+                        "entryPoints": [
+                            {
+                                "type": "Main",
+                                "accuracy": {
+                                    "geocodingAccuracy": "Failed"
+                                }
+                            },
+                            {
+                                "type": "Secondary",
+                                "accuracy": {
+                                    "geocodingAccuracy": "Failed"
+                                }
+                            },
+                            {
+                                "locusToEpKey": {
+                                    "mostSigBits": -6015761341718705442,
+                                    "leastSigBits": -7606604118100931633
+                                },
+                                "type": "Main",
+                                "mapReference": {
+                                    "edgeId": "00005448-3700-0400-0000-000001b009fa",
+                                    "edgeSide": "L",
+                                    "partition": "THA0000",
+                                    "dataset": "THA"
+                                },
+                                "accuracy": {
+                                    "geocodingAccuracy": "ClosestEdge"
+                                },
+                                "point": {
+                                    "latitude": 14.9956023,
+                                    "longitude": 102.1232152
+                                }
+                            }
+                        ],
+                        "locality": {
+                            "id": 76400
+                        },
+                        "phoneNumbers": [],
+                        "webAddresses": [],
+                        "emailAddresses": [],
+                        "openingHours": [],
+                        "paymentMethodInfos": [],
+                        "relations": [],
+                        "categories": [
+                            {
+                                "id": 64,
+                                "text": "Restaurant"
+                            },
+                            {
+                                "id": 93,
+                                "text": "Asian"
+                            },
+                            {
+                                "id": 144,
+                                "text": "Oriental"
+                            },
+                            {
+                                "id": 180,
+                                "text": "Thai"
+                            },
+                            {
+                                "id": 249,
+                                "text": "Eating"
+                            },
+                            {
+                                "id": 411,
+                                "text": "Ethnicity"
+                            }
+                        ],
+                        "insertedCategories": [],
+                        "preemptiveCategories": [],
+                        "brands": [],
+                        "evsStation": [],
+                        "ratings": [],
+                        "genericAttributes": [],
+                        "processingFlags": [],
+                        "petrolFlags": [],
+                        "hydrogenPressures": [],
+                        "vehicleTypes": []
+                    },
+                    "metaData": {
+                        "supplier": "SAS",
+                        "importTimestamp": 1549538447235,
+                        "project": "THA-Run",
+                        "projectPriority": 0,
+                        "pppConfigVersion": "Global_Branch_THA",
+                        "pppConfigPath": "LoadData-SEA",
+                        "glDBSchema": "gl_rdindex_dc_1903_v666_"
+                    },
+                    "status": "READY_TO_LOCK"
+                }

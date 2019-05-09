@@ -1,0 +1,497 @@
+{
+  "_id": "86df464a-0873-4562-b00b-6ee1efcef832",
+  "_rev": "1553256397610942464",
+  "docType": "CLUSTER_STATE",
+  "clusterMetaData": {
+    "lastUpdatedTimestamp": 1553256378335,
+    "creationTimestamp": 1553256378335,
+    "project": "A1",
+    "pppConfigVersion": "Global_Branch_THA",
+    "pppConfigPath": "LoadData-SEA",
+    "glDBSchema": "gl_rdindex_dc_1903_v666_"
+  },
+  "stateCreatorPlaceId": "7379bff7-e127-408b-9d70-6db5d9a9694b",
+  "clusterId": "c1fbf095-a348-4f60-ac7e-3ac032ad2a41",
+  "placeIds": ["cba62456-0580-4f49-8d9c-3a4584cf3dea", "7379bff7-e127-408b-9d70-6db5d9a9694b"],
+  "matchedPairs": [{
+    "firstDocId": "7379bff7-e127-408b-9d70-6db5d9a9694b",
+    "secondDocId": "cba62456-0580-4f49-8d9c-3a4584cf3dea",
+    "score": 100.0
+  }],
+  "isLatestState": true,
+  "productizedCandidates": [{
+    "soureDocId": "7379bff7-e127-408b-9d70-6db5d9a9694b",
+    "supplierName": "SAS",
+    "importTimestamp": 0,
+    "isBasePlace": false,
+    "deliveryPlaceId": {
+      "mostSigBits": -9059716714733222143,
+      "leastSigBits": -4863084967482202703
+    }
+  }],
+  "archivePlace":{  
+         "archivePlaceId":{  
+            "mostSigBits":-376456551304704600,
+            "leastSigBits":-6549271325845403000
+         },
+         "deliveryPlaceIds":[  
+            {  
+               "mostSigBits":-4593212469958588000,
+               "leastSigBits":-7913860142554480000
+            }
+         ],
+         "iso3Country":"LUX",
+         "pois":[  
+            {  
+               "serviceGroupName":"8",
+               "serviceGroupNameDesc":"Shopping",
+               "country":"35",
+               "dataset":"LUX",
+               "poiUniqueId":"{\"mostSigBits\": -376456551304704546, \"leastSigBits\": -6549271325845403126}",
+               "externalIdentifier":"442009000069461",
+               "gdfFeatureCode":"9361",
+               "gdfFeatureCodeDesc":"Shop",
+               "subcategory":"9361066",
+               "subcategoryDesc":"Wholesale Clubs",
+               "officialNames":[  
+                  {  
+                     "name":"Enterasys Networks",
+                     "language":"LTZ"
+                  }
+               ],
+               "alternateNames":[  
+
+               ],
+               "brandNames":[  
+                  {  
+                     "value":"NO_BRAND",
+                     "alphabet":"1"
+                  }
+               ],
+               "houseNumber":"3",
+               "streetsAndCities":[  
+                  {  
+                     "street":"Rue de Koerich",
+                     "streetLanguage":"FRE",
+                     "city":"Windhof",
+                     "cityLanguage":"FRE"
+                  },
+                  {  
+                     "city":"Wandhaff",
+                     "cityLanguage":"LTZ"
+                  },
+                  {  
+                     "city":"Windhof",
+                     "cityLanguage":"GER"
+                  }
+               ],
+               "postalCode":"8399",
+               "postalCodeMain":"8399",
+               "longitudeOfPoi":"5.95546",
+               "latitudeOfPoi":"49.6485",
+               "geocodingAccuracyLevel":"20",
+               "positionalAccuracy":"0",
+               "tifEdgeid":"00004c55-5800-0400-0000-000000020213",
+               "importance":"",
+               "fromDirection":"",
+               "fromDirLangCode":"",
+               "toDirection":"",
+               "toDirLangCode":"",
+               "routenames":[  
+
+               ],
+               "routenumbers":[  
+
+               ],
+               "vicinities":[  
+
+               ],
+               "phoneNumbers":[  
+                  {  
+                     "number":"+(352)-(26)-30711",
+                     "type":"1"
+                  }
+               ],
+               "faxNumbers":[  
+                  "+(352)-(26)-3071"
+               ],
+               "attributes":[  
+
+               ],
+               "alternateCodes":[  
+
+               ],
+               "ratings":[  
+
+               ],
+               "openingPeriods":[  
+
+               ],
+               "contentsource":"2",
+               "contentmodified":"1",
+               "isBad":false,
+               "isMandatory":false,
+               "isCore":false,
+               "isShowStopper":false,
+               "productizedLocusToEpKey":{  
+                  "mostSigBits":1415032197934957600,
+                  "leastSigBits":-6600283746724910000
+               },
+               "cppId":"00004c55-5800-2800-0000-00000bebea2b"
+            },
+            {  
+               "serviceGroupName":"0",
+               "serviceGroupNameDesc":"Other",
+               "country":"35",
+               "dataset":"LUX",
+               "poiUniqueId":"{\"mostSigBits\": -376456551304704546, \"leastSigBits\": -6549271325845403126}_1",
+               "gdfFeatureCode":"9920",
+               "gdfFeatureCodeDesc":"Entry Point",
+               "officialNames":[  
+
+               ],
+               "alternateNames":[  
+
+               ],
+               "brandNames":[  
+
+               ],
+               "streetsAndCities":[  
+
+               ],
+               "longitudeOfPoi":"5.9554216",
+               "latitudeOfPoi":"49.6484988",
+               "geocodingAccuracyLevel":"99",
+               "positionalAccuracy":"0",
+               "tifEdgeid":"00004c55-5800-0400-0000-000000020213",
+               "routenames":[  
+
+               ],
+               "routenumbers":[  
+
+               ],
+               "vicinities":[  
+
+               ],
+               "phoneNumbers":[  
+
+               ],
+               "faxNumbers":[  
+
+               ],
+               "attributes":[  
+
+               ],
+               "alternateCodes":[  
+
+               ],
+               "ratings":[  
+
+               ],
+               "openingPeriods":[  
+
+               ],
+               "isBad":false,
+               "isMandatory":false,
+               "isCore":false,
+               "isShowStopper":false
+            }
+         ],
+         "relationships":[  
+            {  
+               "relId":"{\"mostSigBits\": -376456551304704546, \"leastSigBits\": -6549271325845403126}_1",
+               "fromPoiId":"{\"mostSigBits\": -376456551304704546, \"leastSigBits\": -6549271325845403126}",
+               "toPoiId":"{\"mostSigBits\": -376456551304704546, \"leastSigBits\": -6549271325845403126}_1",
+               "code":"1"
+            }
+         ],
+         "badRelationships":[  
+
+         ],
+         "suppliers":[  
+            {  
+               "poiUniqueId":"{\"mostSigBits\": -376456551304704546, \"leastSigBits\": -6549271325845403126}",
+               "supplierCode":"LIN",
+               "deliveryId":"859",
+               "rawId":"{\"mostSigBits\": -4593212469958587765, \"leastSigBits\": -7913860142554479859}",
+               "totalAttributes":"1",
+               "visibleAttributes":"1"
+            },
+            {  
+               "poiUniqueId":"{\"mostSigBits\": -376456551304704546, \"leastSigBits\": -6549271325845403126}_1",
+               "rawId":"{\"mostSigBits\": -4593212469958587765, \"leastSigBits\": -7913860142554479859}",
+               "totalAttributes":"1",
+               "visibleAttributes":"1"
+            }
+         ],
+         "invalid":[  
+
+         ],
+         "attributes":[  
+
+         ],
+         "err":[  
+
+         ],
+         "anzsic":[  
+
+         ],
+         "isAddObservation":false
+      },
+  "featureIds": ["00005448-3700-2800-0000-00000bf47ef7"],
+  "delta": {
+    "relatedArchivePlaceDiff": {
+      "archivePlaceDiffs": [{
+        "before": {
+          "archivePlaceId": {
+            "mostSigBits": 7326133060176135742,
+            "leastSigBits": -5557989909214993296
+          },
+          "deliveryPlaceIds": [{
+            "mostSigBits": 92669137135616,
+            "leastSigBits": 200572663
+          }],
+          "iso3Country": "THA",
+          "pois": [{
+            "serviceGroupName": "3",
+            "serviceGroupNameDesc": "Eating \u0026 Drinking",
+            "country": "THA",
+            "poiUniqueId": "00005448-3700-2800-0000-00000bf47ef7",
+            "externalIdentifier": "764009001381143",
+            "gdfFeatureCode": "7315",
+            "gdfFeatureCodeDesc": "Restaurant",
+            "subcategory": "7315048",
+            "subcategoryDesc": "Thai",
+            "officialNames": [{
+              "name": "แซบอีหลี",
+              "language": "THA"
+            }, {
+              "name": "Saep E Lee",
+              "language": "THL"
+            }],
+            "alternateNames": [{
+              "name": "Saep I Li Restaurant",
+              "language": "THL"
+            }, {
+              "name": "ร้านอาหารแซบอีหลี",
+              "language": "THA"
+            }],
+            "brandNames": [],
+            "streetsAndCities": [{
+              "street": "Thanon Suwannasorn",
+              "streetLanguage": "THL",
+              "city": "Sa Kaeo",
+              "cityLanguage": "THL"
+            }, {
+              "street": "ถนนสุวรรณสรณ์",
+              "streetLanguage": "THA",
+              "city": "สระแก้ว",
+              "cityLanguage": "THA"
+            }],
+            "postalCode": "27000",
+            "postalCodeMain": "27000",
+            "longitudeOfPoi": "102.096517",
+            "latitudeOfPoi": "13.801347",
+            "geocodingAccuracyLevel": "18",
+            "positionalAccuracy": "0",
+            "fromDirection": "",
+            "fromDirLangCode": "",
+            "toDirection": "",
+            "toDirLangCode": "",
+            "routenames": [],
+            "routenumbers": [],
+            "vicinities": [],
+            "phoneNumbers": [],
+            "faxNumbers": [],
+            "attributes": [],
+            "alternateCodes": [],
+            "ratings": [],
+            "openingPeriods": [],
+            "contentsource": "2",
+            "contentmodified": "1",
+            "isBad": false,
+            "isMandatory": false,
+            "isCore": false,
+            "isShowStopper": false,
+            "cppId": "00005448-3700-2800-0000-00000bf47ef7"
+          }, {
+            "serviceGroupName": "0",
+            "serviceGroupNameDesc": "Other",
+            "country": "THA",
+            "poiUniqueId": "e6958792-e76d-448c-925f-915fa474131c",
+            "gdfFeatureCode": "9920",
+            "gdfFeatureCodeDesc": "Entry Point",
+            "officialNames": [],
+            "alternateNames": [],
+            "brandNames": [],
+            "streetsAndCities": [],
+            "longitudeOfPoi": "102.0965194",
+            "latitudeOfPoi": "13.801425",
+            "geocodingAccuracyLevel": "99",
+            "positionalAccuracy": "0",
+            "routenames": [],
+            "routenumbers": [],
+            "vicinities": [],
+            "phoneNumbers": [],
+            "faxNumbers": [],
+            "attributes": [],
+            "alternateCodes": [],
+            "ratings": [],
+            "openingPeriods": [],
+            "isBad": false,
+            "isMandatory": false,
+            "isCore": false,
+            "isShowStopper": false
+          }],
+          "relationships": [{
+            "relId": "00005448-3700-2800-0000-00000bf47ef7",
+            "fromPoiId": "00005448-3700-2800-0000-00000bf47ef7",
+            "toPoiId": "e6958792-e76d-448c-925f-915fa474131c",
+            "code": "1"
+          }],
+          "badRelationships": [],
+          "suppliers": [],
+          "invalid": [],
+          "attributes": [],
+          "err": [],
+          "anzsic": [],
+          "isAddObservation": false
+        },
+        "after": {
+          "archivePlaceId": {
+            "mostSigBits": 7192659658745333598,
+            "leastSigBits": -9133851557730791447
+          },
+          "deliveryPlaceIds": [{
+            "mostSigBits": -9059716714733222143,
+            "leastSigBits": -4863084967482202703
+          }],
+          "iso3Country": "THA",
+          "pois": [{
+            "serviceGroupName": "3",
+            "serviceGroupNameDesc": "Eating \u0026 Drinking",
+            "country": "66",
+            "dataset": "THA",
+            "poiUniqueId": "{\"mostSigBits\": 7192659658745333598, \"leastSigBits\": -9133851557730791447}",
+            "gdfFeatureCode": "7315",
+            "gdfFeatureCodeDesc": "Restaurant",
+            "subcategory": "7315048",
+            "subcategoryDesc": "Thai",
+            "officialNames": [{
+              "name": "แซบอีหลี",
+              "language": "THA"
+            }, {
+              "name": "Saep E Lee",
+              "language": "THL"
+            }],
+            "alternateNames": [],
+            "brandNames": [],
+            "streetsAndCities": [{
+              "street": "Thanon Suwannasorn",
+              "streetLanguage": "THL",
+              "city": "Sa Kaeo",
+              "cityLanguage": "THL"
+            }, {
+              "street": "ถนนสุวรรณสรณ์",
+              "streetLanguage": "THA",
+              "city": "สระแก้ว",
+              "cityLanguage": "THA"
+            }],
+            "postalCode": "27000",
+            "postalCodeMain": "27000",
+            "longitudeOfPoi": "102.096517",
+            "latitudeOfPoi": "13.801347",
+            "geocodingAccuracyLevel": "18",
+            "positionalAccuracy": "0",
+            "tifEdgeid": "00005448-3700-0400-0000-000000f2ba5d",
+            "importance": "",
+            "fromDirection": "",
+            "fromDirLangCode": "",
+            "toDirection": "",
+            "toDirLangCode": "",
+            "routenames": [],
+            "routenumbers": [],
+            "vicinities": [],
+            "phoneNumbers": [],
+            "faxNumbers": [],
+            "attributes": [],
+            "alternateCodes": [],
+            "ratings": [],
+            "openingPeriods": [],
+            "contentsource": "2",
+            "contentmodified": "1",
+            "isBad": false,
+            "isMandatory": false,
+            "isCore": false,
+            "isShowStopper": false,
+            "productizedLocusToEpKey": {
+              "mostSigBits": -8241388375329323341,
+              "leastSigBits": -6811972883184265449
+            },
+            "cppId": "00005448-3700-2800-0000-00000bf47ef7"
+          }, {
+            "serviceGroupName": "0",
+            "serviceGroupNameDesc": "Other",
+            "country": "66",
+            "dataset": "THA",
+            "poiUniqueId": "{\"mostSigBits\": 7192659658745333598, \"leastSigBits\": -9133851557730791447}_1",
+            "gdfFeatureCode": "9920",
+            "gdfFeatureCodeDesc": "Entry Point",
+            "officialNames": [],
+            "alternateNames": [],
+            "brandNames": [],
+            "streetsAndCities": [],
+            "longitudeOfPoi": "102.0965194",
+            "latitudeOfPoi": "13.801425",
+            "geocodingAccuracyLevel": "99",
+            "positionalAccuracy": "0",
+            "tifEdgeid": "00005448-3700-0400-0000-000000f2ba5d",
+            "routenames": [],
+            "routenumbers": [],
+            "vicinities": [],
+            "phoneNumbers": [],
+            "faxNumbers": [],
+            "attributes": [],
+            "alternateCodes": [],
+            "ratings": [],
+            "openingPeriods": [],
+            "isBad": false,
+            "isMandatory": false,
+            "isCore": false,
+            "isShowStopper": false
+          }],
+          "relationships": [{
+            "relId": "{\"mostSigBits\": 7192659658745333598, \"leastSigBits\": -9133851557730791447}_1",
+            "fromPoiId": "{\"mostSigBits\": 7192659658745333598, \"leastSigBits\": -9133851557730791447}",
+            "toPoiId": "{\"mostSigBits\": 7192659658745333598, \"leastSigBits\": -9133851557730791447}_1",
+            "code": "1"
+          }],
+          "badRelationships": [],
+          "suppliers": [{
+            "poiUniqueId": "{\"mostSigBits\": 7192659658745333598, \"leastSigBits\": -9133851557730791447}",
+            "supplierCode": "SAS",
+            "deliveryId": "229",
+            "rawId": "{\"mostSigBits\": -9059716714733222143, \"leastSigBits\": -4863084967482202703}",
+            "totalAttributes": "1",
+            "visibleAttributes": "1"
+          }, {
+            "poiUniqueId": "{\"mostSigBits\": 7192659658745333598, \"leastSigBits\": -9133851557730791447}_1",
+            "rawId": "{\"mostSigBits\": -9059716714733222143, \"leastSigBits\": -4863084967482202703}",
+            "totalAttributes": "1",
+            "visibleAttributes": "1"
+          }],
+          "invalid": [],
+          "attributes": [],
+          "err": [],
+          "anzsic": [],
+          "isAddObservation": false
+        }
+      }]
+    },
+    "deltaType": "UPDATE",
+    "adminArea": "CODE_NOT_FOUND",
+    "status": "NEW",
+    "violations": [],
+    "commitAttempts": 0
+  }
+}
